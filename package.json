@@ -2,8 +2,9 @@
   "name": "learn_webpack4",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "private": true,
   "dependencies": {
+    "lodash": "^4.17.10",
     "npm": "^6.0.0",
     "webpack": "^4.7.0"
   },
@@ -11,7 +12,8 @@
     "webpack-cli": "^2.1.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
