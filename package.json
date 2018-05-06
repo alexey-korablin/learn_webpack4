@@ -1,0 +1,27 @@
+{
+  "name": "learn_webpack4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "npm": "^6.0.0",
+    "webpack": "^4.7.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^2.1.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexey-korablin/learn_webpack4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexey-korablin/learn_webpack4/issues"
+  },
+  "homepage": "https://github.com/alexey-korablin/learn_webpack4#readme"
+}
