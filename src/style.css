@@ -10,3 +10,7 @@
     background: url('./icon.png') no-repeat left bottom 50px/50px;
     font-family: 'MyFont';
 }
+
+body {
+    background-color: #000;
+}
