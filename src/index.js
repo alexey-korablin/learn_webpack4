@@ -4,6 +4,13 @@ import icon from './icon.png';
 import data from './data.xml';
 import printMe from './print.js'
 
+if (process.env.NODE_ENV !== 'production') {
+    console.log('Looks like we are in development mode!');
+    console.log(process.env.NODE_ENV);
+} else {
+    console.log(process.env.NODE_ENV);
+}
+
 'use strict';
 const component = () => {
     const element = document.createElement('div');
