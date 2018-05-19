@@ -1,15 +1,13 @@
 const express = require('express');
 const webpack = require('webpack');
-const webpackDevMiddleware = require('webpack-dev-middleware');
+const webpackDewMiddleware = require('webpack-dev-middleware');
 
 const app = express();
 const config = require('./webpack.config');
 const compiler = webpack(config);
 
-app.use(webpackDevMiddleware(compiler, {
-    publicPath: config.output.publicPath
-}));
+app.use(webpackDewMiddleware(compiler, {publicPath: config.output.publicPath}));
 
 app.listen(3010, function() {
-    console.log('Example app listening on port 3010!\n');
+    console.log('Example app listening on port 3000!\n');
 });

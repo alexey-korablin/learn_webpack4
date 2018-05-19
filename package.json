@@ -3,22 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "private": true,
-  "dependencies": {
-    "lodash": "^4.17.10",
-    "npm": "^6.0.0",
-    "webpack": "^4.7.0"
-  },
   "devDependencies": {
     "clean-webpack-plugin": "^0.1.19",
-    "css-loader": "^0.28.11",
-    "csv-loader": "^2.1.1",
-    "express": "^4.16.3",
-    "file-loader": "^1.1.11",
     "html-webpack-plugin": "^3.2.0",
-    "style-loader": "^0.21.0",
-    "webpack-cli": "^2.1.2",
-    "webpack-dev-middleware": "^3.1.3",
+    "webpack": "^4.8.3",
     "webpack-dev-server": "^3.1.4",
+<<<<<<< HEAD
     "webpack-merge": "^4.1.2",
     "xml-loader": "^1.2.1"
   },
@@ -30,6 +20,15 @@
     "start": "webpack-dev-server --open",
     "start-d": "webpack-dev-server --open --config webpack.dev.js",
     "server": "node server.js"
+=======
+    "express": "^4.16.3"
+  },
+  "scripts": {
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --open",
+    "server": "node server.js",
+    "build": "webpack"
+>>>>>>> f9d42941392400a855a867b8eeff593bf54d50e0
   },
   "repository": {
     "type": "git",
@@ -41,5 +40,8 @@
   "bugs": {
     "url": "https://github.com/alexey-korablin/learn_webpack4/issues"
   },
-  "homepage": "https://github.com/alexey-korablin/learn_webpack4#readme"
+  "homepage": "https://github.com/alexey-korablin/learn_webpack4#readme",
+  "dependencies": {
+    "lodash": "^4.17.10"
+  }
 }
